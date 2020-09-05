@@ -1,0 +1,73 @@
+* {
+	margin 0;
+}
+
+.page{
+	background: url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;;
+	height: 100vh;
+}
+
+
+.login-box{
+	width: 30%;
+	background: #9c912cb0;
+	margin: 0 auto;
+	padding-top: 100px;
+	border-radius: 3px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo{
+	width: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.login-form{
+	width: 80%;
+	background: navy blue;
+	margin: 0 auto;
+}
+
+.username{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #e91e63;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.password{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #e91e63;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+.sbmt-btn{
+	width: 31%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 30px;
+	background: #ff0000;
+	color: #fff;
+	border: 1px solid #ff0000;
+	font-size: 14px;
+	transition: all 1s linear;
+
+}
+
+.sbmt-btn:hover{
+	background: #00ff00;
+	color: #121212;
+	cursor: pointer;
+
+}
